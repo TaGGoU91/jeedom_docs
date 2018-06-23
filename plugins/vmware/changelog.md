@@ -4,4 +4,5 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Juin 2018
 
-### 23/06/2018 => Création du changelog et de la documentation. Modification des liens dans le descriptif du plugin
+### 23/06/2018 
+Création du changelog et de la documentation. Modification des liens dans le descriptif du plugin
