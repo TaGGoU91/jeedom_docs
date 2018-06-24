@@ -1,3 +1,4 @@
-# Liste des documentations des plugins créés par TaG
+# Documentations des plugins créés par TaG
 
-## Vmware [Voir la page dédiée](/plugins/vmware/index.md)
+## Vmware 
+[Documentation](/plugins/vmware/index.md) - [Changelog](/plugins/vmware/changelog.md)
