@@ -16,7 +16,7 @@ Les prérequis sont les suivants :
 
 ## Configuration
 
-###Configuration générale
+### Configuration générale
 
 Il n'y a pas de paramètre particulier au niveau de la configuration du plugin, il faut juste patienter le temps que les dépendances soient installées. Durée approximative pour cette étape 3 minutes.
 
