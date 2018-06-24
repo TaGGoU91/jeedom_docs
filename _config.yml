@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 languages: ["en", "fr"]
 exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: fr
+title: [Documentation des plugins de TaG pour Jeedom]
 languageNames:
   fr: Français
   en: English
