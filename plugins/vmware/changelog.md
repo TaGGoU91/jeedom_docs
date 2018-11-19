@@ -10,3 +10,8 @@ Mise à jour de l'info.json
 
 ### 23/06/2018 
 Création du changelog et de la documentation. Modification des liens dans le descriptif du plugin
+
+## Novembre 2018
+Création des équipements VM / association des Vms à leur ESXi
+Création des commandes actions (Power OFF/ON / Snapshot Create/Delete / Reboot )
+Ajout de Log pour le débug
