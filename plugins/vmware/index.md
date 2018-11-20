@@ -58,10 +58,11 @@ Chaque VM aura les commandes suivantes :
 * Supprimer un snapshot
 
 Paramètre de la commande prendre un snapshot :
-Le champ Nom - Description prendre les paramètres suivants (attention à respecter les majuscules pour Nom et Description ainsi que l'espace avant Description. Pas d'espace dans le champ Description
+Le champ Nom - Description prend les paramètres suivants :
 * Nom=NomDeVotreSnapshot Description=Description_De_Votre_Snapshot
+/*\ Attention à respecter les majuscules pour Nom et Description ainsi que l'espace avant Description. Pas d'espace dans le champ Description /*\
 
-Le champ Memory prend en paramètre les valeurs suivantes, il permet de dire si oui ou non vous souhaitez que l'état mémoire de la VM soit pris en compte lors du snapshot :
+Le champ Memory permet de dire si vous souhaitez avoir l'état mémoire de la VM lors du snapshot, il prend le paramètre suivant :
 * NON
 ou
 * OUI
@@ -70,16 +71,15 @@ Paramètre de la commande supprimer un snapshot :
 Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
 
-** Exemple de scénario
-alerting sur nombre de snapshot
-alerting sur présence snapshot
+## Exemple d'idée de scénario
+Envoyer une alerte sur nombre de snapshot associé à une VM
+Envoyer une alerte sur présence de snapshot dans une VM
 
-Faire une interaction appelant le scénario suivant :
+Faire une interaction appelant le scénario suivant (l'idée de base de ce plugin, faciliter les actions de mises à jour du core jeedom tout en sécurisant cette mise à jour ) :
 * Créer un snapshot
 * Faire les mises à jours de votre jeedom via Jeelink
 * Planifier un ASK pour suppression du snapshot dans X jours
-* Supprimer la mise à jour c'est bien déroulée et que l'on a donc répondu OUI au ASK précédent
-
+* Supprimer ou non le snapshot en fonction de la réponse au ASK
 
 
 ## FAQ
@@ -93,7 +93,7 @@ L'installation dure environ 4 minutes, merci de patienter.
 
 > Les dépendances ne s'installent pas.
 
-Mettre le plugin en mode debug et relancer l'installation des dépendances. Transmettre celà sur la page dédiée au plugin sur le forum : 
+Mettre le plugin en mode debug et relancer l'installation des dépendances. Transmettre celà sur la page dédiée au plugin sur le forum : To Be Completed
 
 
 
