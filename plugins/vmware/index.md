@@ -2,51 +2,49 @@
 
 ## Présentation
 
-Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre plateforme(s) Vmware et de pouvoir effectuer quelques actions sur vos VMS.
+Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre plateforme(s) Vmware et de pouvoir effectuer quelques actions sur vos VMS en cas de besoin.
 
-Le plugin installe en tant que dépendances powershell et le module powercli de chez Vmware pour obtenir les informations. Ces dépendances sont installées lors de l'installation du plugin.
+Le plugin ne contient pas de dépendances.
 Le pilotage des VMs sera effectué via SSH. 
-La suppression de la partie powershell est à l'étude.
 
 
 ## Prérequis 
 
 Les prérequis sont les suivants : 
-* Débian 8 minimum
-* Version d'ESXi : 6.5 minimum
+* Autoriser l'accès SSH sur vo(s)tre serveur(s) ESXi
+
 
 ## Configuration
 
 ### Configuration générale
 
-Il n'y a pas de paramètre particulier au niveau de la configuration du plugin, il faut juste patienter le temps que les dépendances soient installées. Durée approximative pour cette étape 4 minutes.
+Il n'y a pas de paramètre particulier au niveau de la configuration du plugin.
 
-### Configuration d'un équipement
+### Ajouter un équipement de type serveur ESXi
 
-#### Utilisation de Powercli
+* Cliquer sur le bouton Ajouter sur la page du plugin Vmware
+* Saisir le nom de votre équipement
+* Cliquer sur OK
 
-Un équipement ESXi à besoin des paramètres suivants lors de l'utilisation de l'option PowerCli :
+Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 
-* Adresse IP de l'hôte ESXi sur votre réseau
-* Login
+* Adresse IP de l'hôte ESXi
+* Login  (Vous pouvez créer un compte dédié pour ce besoin en limitant les droits de ce compte si vous le souhaitez)
 * Mot de passe
+* Sauvegarder l'équipement ESXi -> 2 fois
 
 
 ## Informations
 
-Lors de la sauvegarde de l'ESXi, l'ESXi va être intérrogé pour créer 1 équipement par VM. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées.
+Lors de la sauvegarde de l'ESXi, l'ESXi va être interrogé pour créer un équipement par VM. Celà prend quelques secondes selon la quantité de VMs configurées (constaté entre 10 et 40 secondes).
 
 Chaque VM aura les informations suivantes :
 * Quantité RAM Total
-* Quantité RAM utilisée (sur le dernier mois lissée toutes les 5 minutes)
-* Espace disque total
-* Espace disque restant
-* Espace disque utilisé
 * Nombre de CPU
 * Nombre de core par CPU
 * Nombre de snapshot
 * Liste des snapshots
-* Allumée ?
+* Allumée ou éteinte ?
 
 Chaque VM aura les commandes suivantes :
 * Reboot OS
@@ -72,10 +70,10 @@ Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
 
 ## Exemple d'idée de scénario
-Envoyer une alerte sur nombre de snapshot associé à une VM
-Envoyer une alerte sur présence de snapshot dans une VM
+Envoyer une alerte sur le nombre de snapshot associé à une VM -> Trop de snapshots ça n'est pas bon
+Envoyer une alerte sur présence de snapshot dans une VM depuis XX jours -> Conserver un snapshot trop longtemps n'est pas une bonne idée
 
-Faire une interaction appelant le scénario suivant (l'idée de base de ce plugin, faciliter les actions de mises à jour du core jeedom tout en sécurisant cette mise à jour ) :
+Faire une interaction appelant le scénario suivant (C'est l'idée de base qui m'a poussé à créer ce plugin : faciliter les actions de mises à jour du core jeedom tout en sécurisant cette mise à jour) :
 * Créer un snapshot
 * Faire les mises à jours de votre jeedom via Jeelink
 * Planifier un ASK pour suppression du snapshot dans X jours
@@ -84,17 +82,12 @@ Faire une interaction appelant le scénario suivant (l'idée de base de ce plugi
 
 ## FAQ
 
-> Les dépendances mettent du temps à s'installer.
-
-L'installation dure environ 4 minutes, merci de patienter.
+> RAS
 
 
 ## Troubleshooting
 
-> Les dépendances ne s'installent pas.
-
-Mettre le plugin en mode debug et relancer l'installation des dépendances. Transmettre celà sur la page dédiée au plugin sur le forum : To Be Completed
-
+> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquer le moi
 
 
 ## Changelog
