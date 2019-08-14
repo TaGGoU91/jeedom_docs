@@ -69,7 +69,7 @@ Paramètre de la commande supprimer un snapshot :
 Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
 
-## Exemple d'idée de scénario
+## Idée de scénario
 Envoyer une alerte sur le nombre de snapshot associé à une VM -> Trop de snapshots ça n'est pas bon
 Envoyer une alerte sur présence de snapshot dans une VM depuis XX jours -> Conserver un snapshot trop longtemps n'est pas une bonne idée
 
