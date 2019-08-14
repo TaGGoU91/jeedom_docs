@@ -82,7 +82,7 @@ Faire une interaction appelant le scénario suivant (C'est l'idée de base qui m
 
 ## FAQ
 
-> RAS
+> Rien à signaler à l'heure actuelle
 
 
 ## Troubleshooting
