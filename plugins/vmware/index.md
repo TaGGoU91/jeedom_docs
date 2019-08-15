@@ -55,7 +55,7 @@ Chaque VM aura les commandes suivantes :
 * Prendre un snapshot
 * Supprimer un snapshot
 
-Paramètre de la commande prendre un snapshot :
+## Paramètres de la commande prendre un snapshot :
 
 Le champ Nom - Description prend les paramètres suivants - **Attention pas d'espace dans le champ Description** :
 * Nom=NomDeVotreSnapshot Description=Description_De_Votre_Snapshot
@@ -72,7 +72,7 @@ Le champ Memory permet de dire si vous souhaitez avoir l'état mémoire de la VM
 ou
 * OUI
 
-Paramètre de la commande supprimer un snapshot :
+## Paramètre de la commande supprimer un snapshot :
 Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
 
