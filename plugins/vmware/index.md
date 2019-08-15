@@ -36,7 +36,7 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 
 ## Informations
 
-Lors de la sauvegarde de l'ESXi, l'ESXi va être interrogé pour créer un équipement par VM. Celà prend quelques secondes selon la quantité de VMs configurées (constaté entre 10 et 40 secondes).
+Lors de la sauvegarde de l'ESXi, l'ESXi va être interrogé pour créer un équipement par VM. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées (constaté entre 10secondes pour 5 Vms  et 180 secondes pour 50 Vms).
 
 Chaque VM aura les informations suivantes :
 * Quantité RAM Total
