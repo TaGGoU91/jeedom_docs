@@ -76,7 +76,7 @@ ou
 Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
 
-ou si vous avez des espaces il peut l(être de la façon suivante : 
+ou si vous avez des espaces dans le nom du snapshot il peut l'être de la façon suivante : 
 * Nom="Nom de votre snapshot"
 
 ## Idée de scénario
