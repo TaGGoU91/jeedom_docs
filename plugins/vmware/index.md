@@ -62,7 +62,7 @@ Le champ Nom - Description prend les paramètres suivants - **Attention pas d'es
 
 
 Si vous souhaitez utiliser des espaces dans le nom ou la description il faut saisir les informations comme ceci :
-* Nom="NomDeVotreSnapshot" Description="Description_De_Votre_Snapshot"
+* Nom="Nom de votre snapshot" Description="Description de votre snapshot"
 
 > **Attention** à respecter les majuscules pour Nom et Description ainsi que l'espace avant Description.
 
@@ -75,6 +75,9 @@ ou
 ## Paramètre de la commande supprimer un snapshot :
 Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
+
+ou si vous avez des espaces il peut l(être de la façon suivante : 
+* Nom="Nom de votre snapshot"
 
 ## Idée de scénario
 Envoyer une alerte sur le nombre de snapshot associé à une VM -> Trop de snapshots ça n'est pas bon
