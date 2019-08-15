@@ -58,6 +58,7 @@ Chaque VM aura les commandes suivantes :
 Paramètre de la commande prendre un snapshot :
 Le champ Nom - Description prend les paramètres suivants :
 * Nom=NomDeVotreSnapshot Description=Description_De_Votre_Snapshot
+
 Si vous souhaitez utiliser des espaces dans le nom ou la description il faut saisir les informations comme ceci :
 * Nom="NomDeVotreSnapshot" Description="Description_De_Votre_Snapshot"
 /*\ Attention à respecter les majuscules pour Nom et Description ainsi que l'espace avant Description. Pas d'espace dans le champ Description /*\
