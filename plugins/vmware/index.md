@@ -56,7 +56,7 @@ Chaque VM aura les commandes suivantes :
 * Supprimer un snapshot
 
 Paramètre de la commande prendre un snapshot :
-Le champ Nom - Description prend les paramètres suivants - **Attention :** Pas d'espace dans le champ Description :
+Le champ Nom - Description prend les paramètres suivants - **Attention pas d'espace dans le champ Description** :
 * Nom=NomDeVotreSnapshot Description=Description_De_Votre_Snapshot
 
 
