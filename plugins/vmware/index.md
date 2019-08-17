@@ -10,7 +10,7 @@ Le pilotage des VMs sera effectué via SSH.
 
 ## Prérequis 
 
-Les prérequis sont les suivants : 
+Le seul prérequis est le suivant : 
 * Autoriser l'accès SSH sur vo(s)tre serveur(s) ESXi
 
 
