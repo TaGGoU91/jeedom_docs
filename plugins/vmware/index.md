@@ -42,7 +42,7 @@ Chaque VM aura les informations suivantes :
 * Nombre de snapshot
 * Liste des snapshots
 * Statut des Vmware Tools
-* `r fa("r-project", fill = "steelblue")` Allumée ou éteinte ? 
+* r fa("r-project", fill = "steelblue") Allumée ou éteinte ? 
 * Système d'exploitation
 * Quantité RAM Total
 * Nombre de CPU
