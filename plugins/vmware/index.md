@@ -39,12 +39,15 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 Lors de la sauvegarde de l'ESXi, l'ESXi va être interrogé pour créer un équipement par VM. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées (constaté entre 10secondes pour 5 Vms  et 180 secondes pour 50 Vms).
 
 Chaque VM aura les informations suivantes :
+* Nombre de snapshot
+* Liste des snapshots
+* Statut des Vmware Tools
+* `r fa("r-project", fill = "steelblue")` Allumée ou éteinte ? 
+* Système d'exploitation
 * Quantité RAM Total
 * Nombre de CPU
 * Nombre de core par CPU
-* Nombre de snapshot
-* Liste des snapshots
-* Allumée ou éteinte ?
+
 
 Chaque VM aura les commandes suivantes :
 * Reboot OS
