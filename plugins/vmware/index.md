@@ -119,8 +119,7 @@ Le plugin s'appuie sur deux crons
 * cronHourly -> qui met à jour toutes les heures les informations sur l'ESXi/ les ESXis et les VMs
 * cronDaily -> qui met à jour une fois par jour la présence ou non de mise à jour pour l'ESXi/les ESXis
 
-> Cela est désactivable dans la page de configuration du plugin vmware
-> ![introduction01](../../images/vmware/cron_plugin.png)
+> Cela est désactivable dans la page de configuration du plugin vmware  ![introduction01](../../images/vmware/cron_plugin.png)
 
 
 ## FAQ
