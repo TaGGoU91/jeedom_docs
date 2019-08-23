@@ -40,7 +40,7 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 
 Lors de la sauvegarde de l'ESXi, l'ESXi n'est pas interrogé directement.
 
-Il faut utiliser le bouton synchroniser ou la commande Refresh pour lancer l'interrogation de l'ESXi et récupérer les informations de l'ESXI et des ses VMs. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées (constaté entre 10secondes pour 5 Vms  et 180 secondes pour 50 Vms).
+>> Il faut utiliser le bouton synchroniser ou la commande Refresh pour lancer l'interrogation de l'ESXi et récupérer les informations de l'ESXI et des ses VMs. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées (constaté entre 10secondes pour 5 Vms  et 180 secondes pour 50 Vms).
 
 Chaque VM aura les informations suivantes :
 * Nombre de snapshot
