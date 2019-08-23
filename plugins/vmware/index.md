@@ -107,10 +107,10 @@ Faire une interaction appelant le scénario suivant (C'est l'idée de base qui m
 * Planifier un ASK pour suppression du snapshot dans X jours
 * Supprimer ou non le snapshot en fonction de la réponse au ASK
 
-#### Scénario 2
+##### Scénario 2
 Envoyer une alerte si la commande Mise à jour disponible sur l'ESXi est disponible afin de pouvoir prévoir de le mettre à jour
 
-### Scénario 3 
+##### Scénario 3 
 Surveiller si une VM s'éteint, surveiller si une VM n'a plus ses VMWARE Tools fonctionnel, etc...
 
 
