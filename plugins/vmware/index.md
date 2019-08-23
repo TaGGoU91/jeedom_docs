@@ -7,7 +7,7 @@ Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre platefor
 Le plugin ne contient pas de dépendances.
 Le pilotage des VMs sera effectué via SSH. 
 
-![introduction01](../../images/vmware_icon.png)
+![introduction01](../../images/vmware/vmware_icon.png)
 
 
 ## Prérequis 
@@ -33,7 +33,7 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 * Adresse IP de l'hôte ESXi
 * Login  (Vous pouvez créer un compte dédié pour ce besoin en limitant les droits de ce compte si vous le souhaitez)
 * Mot de passe
-* Sauvegarder l'équipement ESXi -> 2 fois
+* Sauvegarder l'équipement ESXi
 
 
 ## Informations
@@ -43,8 +43,8 @@ Lors de la sauvegarde de l'ESXi, l'ESXi va être interrogé pour créer un équi
 Chaque VM aura les informations suivantes :
 * Nombre de snapshot
 * Liste des snapshots
-* Statut des Vmware Tools
-* Allumée ou éteinte ? 
+* Statut des Vmware Tools : Pas à jour / Démarré / Pas Démarré / Pas Installé
+* Etat de la VM : Allumée (../../images/vmware/coche_verte.png) / Eteinte 
 * Système d'exploitation
 * Quantité RAM Total
 * Nombre de CPU
