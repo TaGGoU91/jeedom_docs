@@ -65,7 +65,7 @@ Chaque VM aura les commandes suivantes :
 Un ESXi aura les informations suivantes : 
 * Nombre de VM
 * Liste des VMs
-* Mise à jour de la version de l'ESXi disponible ? 
+* Mise à jour de la version de l'ESXi disponible ? (Actualisation 1 fois par jour via le CronDaily)
 * Système d'exploitation
 * Quantité de RAM totale
 * Nombre de CPU
@@ -96,6 +96,8 @@ Si vous avez des espaces dans le nom du snapshot il peut l'être de la façon su
 * Nom="Nom de votre snapshot"
 
 ## Idée de scénario
+
+### Scénario 1
 Envoyer une alerte sur le nombre de snapshot associé à une VM -> Trop de snapshots ça n'est pas bon
 Envoyer une alerte sur présence de snapshot dans une VM depuis XX jours -> Conserver un snapshot trop longtemps n'est pas une bonne idée
 
@@ -104,6 +106,12 @@ Faire une interaction appelant le scénario suivant (C'est l'idée de base qui m
 * Faire les mises à jours de votre jeedom via Jeelink
 * Planifier un ASK pour suppression du snapshot dans X jours
 * Supprimer ou non le snapshot en fonction de la réponse au ASK
+
+### Scénario 2
+Envoyer une alerte si la commande Mise à jour disponible sur l'ESXi est disponible afin de pouvoir prévoir de le mettre à jour
+
+### Scénario 3 
+Surveiller si une VM s'éteint, surveiller si une VM n'a plus ses VMWARE Tools fonctionnel, etc...
 
 
 ## FAQ
