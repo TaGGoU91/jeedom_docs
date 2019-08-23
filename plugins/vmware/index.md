@@ -97,7 +97,7 @@ Si vous avez des espaces dans le nom du snapshot il peut l'être de la façon su
 
 ## Idée de scénario
 
-### Scénario 1
+##### Scénario 1
 Envoyer une alerte sur le nombre de snapshot associé à une VM -> Trop de snapshots ça n'est pas bon
 Envoyer une alerte sur présence de snapshot dans une VM depuis XX jours -> Conserver un snapshot trop longtemps n'est pas une bonne idée
 
@@ -107,7 +107,7 @@ Faire une interaction appelant le scénario suivant (C'est l'idée de base qui m
 * Planifier un ASK pour suppression du snapshot dans X jours
 * Supprimer ou non le snapshot en fonction de la réponse au ASK
 
-### Scénario 2
+#### Scénario 2
 Envoyer une alerte si la commande Mise à jour disponible sur l'ESXi est disponible afin de pouvoir prévoir de le mettre à jour
 
 ### Scénario 3 
