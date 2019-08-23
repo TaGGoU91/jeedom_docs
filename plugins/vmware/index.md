@@ -7,6 +7,8 @@ Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre platefor
 Le plugin ne contient pas de dépendances.
 Le pilotage des VMs sera effectué via SSH. 
 
+![introduction01](../../images/vmware_icon.png)
+
 
 ## Prérequis 
 
