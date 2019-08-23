@@ -43,8 +43,8 @@ Lors de la sauvegarde de l'ESXi, l'ESXi va être interrogé pour créer un équi
 Chaque VM aura les informations suivantes :
 * Nombre de snapshot
 * Liste des snapshots
-* Statut des Vmware Tools : Pas à jour / Démarré / Pas Démarré / Pas Installé
-* Etat de la VM : Allumée ![introduction01](../../images/vmware/coche_verte.png) / Eteinte 
+* Statut des Vmware Tools : Démarré ![introduction01](../../images/vmware/coche_verte.png) / Pas Démarré ![introduction01](../../images/vmware/coche_orange.png) / Pas à jour ![introduction01](../../images/vmware/roue_crantee_orange.png) / Pas Installé ![introduction01](../../images/vmware/croix_rouge.png)
+* Etat de la VM : Allumée ![introduction01](../../images/vmware/coche_verte.png) / Eteinte ![introduction01](../../images/vmware/croix_rouge.png)
 * Système d'exploitation
 * Quantité RAM Total
 * Nombre de CPU
