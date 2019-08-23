@@ -48,7 +48,7 @@ Chaque VM aura les informations suivantes :
 * Statut des Vmware Tools : Démarré ![introduction01](../../images/vmware/coche_verte.png) / Pas Démarré ![introduction01](../../images/vmware/coche_orange.png) / Pas à jour ![introduction01](../../images/vmware/roue_crantee_orange.png) / Pas Installé ![introduction01](../../images/vmware/croix_rouge.png)
 * Etat de la VM : Allumée ![introduction01](../../images/vmware/coche_verte.png) / Eteinte ![introduction01](../../images/vmware/croix_rouge.png)
 * Système d'exploitation
-* Quantité RAM Total
+* Quantité de RAM totale
 * Nombre de CPU
 * Nombre de core par CPU
 
@@ -61,6 +61,16 @@ Chaque VM aura les commandes suivantes :
 * Power On -> Equivalent VMWARE : PowerOn
 * Prendre un snapshot -> Plus de détails en dessous sur les options de la commande
 * Supprimer un snapshot -> Plus de détails en dessous sur les options de la commande
+
+Un ESXi aura les informations suivantes : 
+* Nombre de VM
+* Liste des VMs
+* Mise à jour de la version de l'ESXi disponible ? 
+* Système d'exploitation
+* Quantité de RAM totale
+* Nombre de CPU
+* Nombre de core par CPU
+
 
 ## Paramètres de la commande prendre un snapshot :
 
