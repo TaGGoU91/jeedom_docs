@@ -123,7 +123,6 @@ Le plugin s'appuie sur deux crons
 <p align="center">
   <img src="https://github.com/TaGGoU91/jeedom_docs/blob/master/images/vmware/cron_plugin.png?raw=true" alt="Liste des Crons"/>
 </p>
-![introduction01](../../images/vmware/cron_plugin.png)
 
 
 ## FAQ
