@@ -121,7 +121,7 @@ Le plugin s'appuie sur deux crons
 
 > Cela est désactivable dans la page de configuration du plugin vmware
 <p align="center">
-  <img src="https://taggou91.github.io/jeedom_docs/plugins/vmware/images/vmware/cron_plugin.png?raw=true" alt="Liste des Crons"/>
+  <img src="https://github.com/TaGGoU91/jeedom_docs/blob/master/images/vmware/cron_plugin.png?raw=true" alt="Liste des Crons"/>
 </p>
 ![introduction01](../../images/vmware/cron_plugin.png)
 
