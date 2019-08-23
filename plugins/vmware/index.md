@@ -72,15 +72,13 @@ Si vous souhaitez utiliser des espaces dans le nom ou la description il faut sai
 
 Le champ Memory permet de dire si vous souhaitez avoir l'état mémoire de la VM lors du snapshot, il prend le paramètre suivant :
 * NON
-
-ou
 * OUI
 
 ## Paramètre de la commande supprimer un snapshot :
 Le champ Nom du snap est à remplir ainsi :
 * Nom=NomDeVotreSnapshot
 
-ou si vous avez des espaces dans le nom du snapshot il peut l'être de la façon suivante : 
+Si vous avez des espaces dans le nom du snapshot il peut l'être de la façon suivante : 
 * Nom="Nom de votre snapshot"
 
 ## Idée de scénario
