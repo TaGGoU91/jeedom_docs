@@ -132,7 +132,7 @@ Le plugin s'appuie sur deux crons
 
 ## Troubleshooting
 
-> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le moi via un mp sur le forum Jeedom à mon attention : TaG
+> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le moi via un [Message Privé](https://www.jeedom.com/forum/ucp.php?i=pm&mode=compose) sur le forum Jeedom à mon attention : TaG
 
 
 ## Changelog
