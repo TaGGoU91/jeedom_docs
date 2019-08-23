@@ -40,7 +40,7 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 
 Lors de la sauvegarde de l'ESXi, l'ESXi n'est pas interrogé directement.
 
-> Il faut utiliser le bouton synchroniser ou la commande Refresh pour lancer l'interrogation de l'ESXi et récupérer les informations de l'ESXI et des ses VMs. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées (constaté entre 10secondes pour 5 Vms  et 180 secondes pour 50 Vms).
+> Il faut utiliser le bouton synchroniser ou la commande Refresh pour lancer l'interrogation de l'ESXi et récupérer les informations de l'ESXI et de ses VMs. Celà prend quelques dizaines de secondes selon la quantité de VMs configurées (constaté entre 10 secondes pour 5 Vms  et 180 secondes pour 50 Vms).
 
 Chaque VM aura les informations suivantes :
 * Nombre de snapshot
@@ -54,7 +54,7 @@ Chaque VM aura les informations suivantes :
 
 
 Chaque VM aura les commandes suivantes :
-* Reboot OS -> Equivalent VMWARE : -  Vmware Tools requis
+* Reboot OS -> Equivalent VMWARE : Restart -  Vmware Tools requis
 * Reboot Hard -> Equivalent VMWARE : Reset
 * Stop OS -> Equivalent VMWARE : ShutDown - Vmware Tools requis
 * Stop Hard -> Equivalent VMWARE : PowerOff
@@ -132,7 +132,7 @@ Le plugin s'appuie sur deux crons
 
 ## Troubleshooting
 
-> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquer le moi
+> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le moi via un mp sur le forum Jeedom à mon attention : TaG
 
 
 ## Changelog
