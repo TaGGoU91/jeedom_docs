@@ -72,6 +72,7 @@ Si vous souhaitez utiliser des espaces dans le nom ou la description il faut sai
 
 Le champ Memory permet de dire si vous souhaitez avoir l'état mémoire de la VM lors du snapshot, il prend le paramètre suivant :
 * NON
+
 ou
 * OUI
 
