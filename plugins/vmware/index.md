@@ -116,8 +116,8 @@ Surveiller si une VM s'éteint, surveiller si une VM n'a plus ses VMWARE Tools f
 ## Cron
 
 Le plugin s'appuie sur deux crons
-* cronHourly -> qui met à jour toutes les heures les informations sur vo(s)tre ESXi(s) et les VMs
-* cronDaily -> qui met à jour une fois par jour la présence ou non de mise à jour pour vo(s)tre ESXi(s)
+* cronHourly -> met à jour toutes les heures les informations sur vo(s)tre ESXi(s) et les VMs
+* cronDaily -> met à jour une fois par jour la présence ou non de mise à jour pour vo(s)tre ESXi(s)
 
 > Cela est désactivable dans la page de configuration du plugin vmware
 <p align="center">
