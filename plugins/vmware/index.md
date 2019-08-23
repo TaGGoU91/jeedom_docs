@@ -127,7 +127,7 @@ Le plugin s'appuie sur deux crons
 
 ## FAQ
 
-> Rien à signaler à l'heure actuelle
+> Si vous avez un statut sans icone pour les vmwares Tools, merci de me l'indiquer afin que je puisse le rajouter
 
 
 ## Troubleshooting
