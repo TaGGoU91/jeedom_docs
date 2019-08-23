@@ -44,7 +44,7 @@ Chaque VM aura les informations suivantes :
 * Nombre de snapshot
 * Liste des snapshots
 * Statut des Vmware Tools : Pas à jour / Démarré / Pas Démarré / Pas Installé
-* Etat de la VM : Allumée (../../images/vmware/coche_verte.png) / Eteinte 
+* Etat de la VM : Allumée ![introduction01](../../images/vmware/coche_verte.png) / Eteinte 
 * Système d'exploitation
 * Quantité RAM Total
 * Nombre de CPU
