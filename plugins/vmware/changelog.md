@@ -5,6 +5,7 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 ## Septembre 2019
 ### 02/09/2019 
 Mise en ligne de la version stable suite à la validation de l'équipe Jeedom
+Correction du rechargement de la page après avoir cliqué sur Synchroniser (pour la V3 de Jeedom).
 ### 01/09/2019 
 Mise en ligne du plugin sur le market Jeedom - Attente validation du plugin par l'équipe Jeedom
 
