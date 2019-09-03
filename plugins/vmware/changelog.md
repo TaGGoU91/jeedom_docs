@@ -6,7 +6,8 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 ### 03/09/2019 
 Suppression du widget spécifique -> Passage sur les widgets intégrés au core de Jeedom.<br/>
 Remise en ligne de la coche pour afficher ou non une commande.<br/>
-Ordre des commandes définies dans le code (pour la première création des VMs/ESXi) ensuite vous êtes libre de modifier l'ordre bien entendu
+Ordre des commandes définies dans le code (pour la première création des VMs/ESXi) ensuite vous êtes libre de modifier l'ordre bien entendu.<br/>
+Il faut supprimer l'ESXi et les VMs si vous souhaitez profiter de l'ordre de commandes lors de la création des équipements.
 
 ### 02/09/2019 
 Mise en ligne de la version stable suite à la validation de l'équipe Jeedom.<br/>
