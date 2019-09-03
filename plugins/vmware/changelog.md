@@ -5,11 +5,15 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 ## Septembre 2019
 ### 03/09/2019 
 Suppression du widget spécifique -> Passage sur les widgets intégrés au core de Jeedom. 
-Remise en ligne de la coche pour afficher ou non une commande
+
+Remise en ligne de la coche pour afficher ou non une commande.
+
 Ordre des commandes définies dans le code (pour la première création des VMs/ESXi) ensuite vous êtes libre de modifier l'ordre bien entendu
+
 ### 02/09/2019 
 Mise en ligne de la version stable suite à la validation de l'équipe Jeedom
 Correction du rechargement de la page après avoir cliqué sur Synchroniser (pour la V3 de Jeedom).
+
 ### 01/09/2019 
 Mise en ligne du plugin sur le market Jeedom - Attente validation du plugin par l'équipe Jeedom
 
