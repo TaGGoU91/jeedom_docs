@@ -3,6 +3,9 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
+### 04/09/2019 
+Correction d'un bug : Lorque l'on change le nom de l'équipement de type ESXi dans jeedom, la configuration n'était pas mise à jour sur l'équipement ESXi et les équipements VM du plugin. Après une synchronisation l'information est bien mise à jour.
+
 ### 03/09/2019 
 Suppression du widget spécifique -> Passage sur les widgets intégrés au core de Jeedom.<br/>
 Remise en ligne de la coche pour afficher ou non une commande.<br/>
