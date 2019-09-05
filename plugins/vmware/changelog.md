@@ -3,6 +3,10 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
+### 05/09/2019 
+Correction : le bouton synchroniser à gauche d'un ESXI, met à jour toutes les informations, il en manquait certaines qui n'étaient synchro que via le cron hourly ou un refresh sur chacune des VMs
+Début de l'ajout des traductions
+
 ### 04/09/2019 
 Correction d'un bug : Lorque l'on change le nom de l'équipement de type ESXi dans jeedom, la configuration n'était pas mise à jour sur l'équipement ESXi et les équipements VM du plugin. Après une synchronisation l'information est bien mise à jour.
 
