@@ -51,7 +51,7 @@ Chaque VM aura les informations suivantes :
 * Quantité de RAM totale
 * Nombre de CPU
 * Nombre de core par CPU
-* Uptime
+* Uptime en secondes
 
 
 Chaque VM aura les commandes suivantes :
@@ -71,7 +71,7 @@ Un ESXi aura les informations suivantes :
 * Quantité de RAM totale
 * Nombre de CPU
 * Nombre de core par CPU
-* Uptime
+* Uptime en secondes
 
 
 ## Paramètres de la commande prendre un snapshot :
