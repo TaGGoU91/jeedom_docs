@@ -3,8 +3,8 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
-### 10/09/2019 
-Ajout des commandes uptime sur les équipements de type VM et ESXi (besoin de cliquer sur Save pour la créer sur l'ESXi) et de faire un synchroniser pour la créer sur les VMs (l'info n'est pas ajoutée pour l'instant) - 10/09/2019 à 18h03
+### 11/09/2019 
+Ajout des commandes uptime sur les équipements de type VM et ESXi (besoin de cliquer sur Save pour la créer sur l'ESXi). Ensuite cliquer deux fois sur synchroniser pour créer la commande sur les VMs puis mettre à jour la valeur sur les VMs et l'ESXi
 
 ### 05/09/2019 
 Correction : le bouton synchroniser à gauche d'un ESXI, met à jour toutes les informations, il en manquait certaines qui n'étaient synchro que via le cron hourly ou un refresh sur chacune des VMs
