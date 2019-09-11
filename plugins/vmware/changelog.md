@@ -4,7 +4,7 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Septembre 2019
 ### 11/09/2019 
-Ajout des commandes uptime (valeur en secondes) sur les équipements de type VM et ESXi (besoin de cliquer sur Save pour la créer sur l'ESXi). Ensuite cliquer deux fois sur synchroniser pour créer la commande sur les VMs puis mettre à jour la valeur sur les VMs et l'ESXi
+Ajout des commandes uptime (valeur en secondes) sur les équipements de type VM et ESXi (Cliquer sur Save pour la créer sur l'ESXi). Ensuite cliquer sur synchroniser pour créer la commande sur les VMs et mettre à jour la valeur sur les VMs et l'ESXi.
 
 ### 05/09/2019 
 Correction : le bouton synchroniser à gauche d'un ESXI, met à jour toutes les informations, il en manquait certaines qui n'étaient synchro que via le cron hourly ou un refresh sur chacune des VMs
