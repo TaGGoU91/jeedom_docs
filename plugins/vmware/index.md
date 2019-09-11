@@ -51,7 +51,7 @@ Chaque VM aura les informations suivantes :
 * Quantité de RAM totale
 * Nombre de CPU
 * Nombre de core par CPU
-* Uptime en secondes
+* Uptime en secondes (0 si éteinte)
 
 
 Chaque VM aura les commandes suivantes :
