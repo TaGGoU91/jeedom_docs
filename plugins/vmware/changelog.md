@@ -3,6 +3,10 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
+### 12/09/2019 
+Renommage commande uptime en uptime (secondes)
+Ajout des commandes uptime (convertie au format Years/Months/Days/Hours/Minutes/Secondes) sur les équipements de type VM et ESXi (Cliquer sur Save pour la créer sur l'ESXi). Ensuite cliquer sur synchroniser pour créer la commande sur les VMs et mettre à jour la valeur sur les VMs et l'ESXi.
+
 ### 11/09/2019 
 Ajout des commandes uptime (valeur en secondes) sur les équipements de type VM et ESXi (Cliquer sur Save pour la créer sur l'ESXi). Ensuite cliquer sur synchroniser pour créer la commande sur les VMs et mettre à jour la valeur sur les VMs et l'ESXi.
 
