@@ -52,6 +52,7 @@ Chaque VM aura les informations suivantes :
 * Nombre de CPU
 * Nombre de core par CPU
 * Uptime en secondes (0 si éteinte)
+* Uptime affiche au format Years / Months / Days / Hours / Minutes / Seconds 
 
 
 Chaque VM aura les commandes suivantes :
@@ -72,6 +73,7 @@ Un ESXi aura les informations suivantes :
 * Nombre de CPU
 * Nombre de core par CPU
 * Uptime en secondes
+* Uptime affiche au format Years / Months / Days / Hours / Minutes / Seconds 
 
 
 ## Paramètres de la commande prendre un snapshot :
