@@ -6,6 +6,7 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 ### 12/09/2019 
 Renommage commande uptime en uptime (secondes)
 Ajout des commandes uptime (convertie au format Years/Months/Days/Hours/Minutes/Secondes) sur les équipements de type VM et ESXi (Cliquer sur Save pour la créer sur l'ESXi, une erreur apparait, mais ça fonctionne comme attendu). Ensuite cliquer sur synchroniser pour créer la commande sur les VMs et mettre à jour la valeur sur les VMs et l'ESXi.
+Correction d'un bug qui apparait si on a deux vms contenant la même trame genre : monjeedom et une autre jeedom. Selon l'ordre de création dans l'ESXi, une action sur la VM nommée jeedom sera faite sur la VM nommée monjeedom. Ce bug n'est plus d'actualité.
 
 ### 11/09/2019 
 Ajout des commandes uptime (valeur en secondes) sur les équipements de type VM et ESXi (Cliquer sur Save pour la créer sur l'ESXi). Ensuite cliquer sur synchroniser pour créer la commande sur les VMs et mettre à jour la valeur sur les VMs et l'ESXi.
