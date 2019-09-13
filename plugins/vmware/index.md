@@ -52,7 +52,7 @@ Chaque VM aura les informations suivantes :
 * Nombre de CPU
 * Nombre de core par CPU
 * Uptime en secondes (0 si éteinte)
-* Uptime affiché au format Years / Months / Days / Hours / Minutes / Seconds 
+* Uptime de la VM, pas de l'OS, affiché au format Years / Months / Days / Hours / Minutes / Seconds 
 
 
 Chaque VM aura les commandes suivantes :
