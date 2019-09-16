@@ -53,6 +53,7 @@ Chaque VM aura les informations suivantes :
 * Nombre de core par CPU
 * Uptime en secondes (0 si éteinte)
 * Uptime de la VM, pas de l'OS, affiché au format Years / Months / Days / Hours / Minutes / Seconds 
+* Overall Cpu Usage (MHz) permet de suivre via le cron5 l'usage CPU de chaque VMs
 
 
 Chaque VM aura les commandes suivantes :
@@ -74,6 +75,7 @@ Un ESXi aura les informations suivantes :
 * Nombre de core par CPU
 * Uptime en secondes
 * Uptime affiché au format Years / Months / Days / Hours / Minutes / Seconds 
+* Overall Cpu Usage (MHz) permet de suivre via le cron5 l'usage CPU du serveur
 
 
 ## Paramètres de la commande prendre un snapshot :
