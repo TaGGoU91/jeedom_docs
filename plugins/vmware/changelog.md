@@ -3,6 +3,10 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
+### 16/09/2019
+Ajout commande overallCpuUsage sur VM et ESXi afin de suivre l'usage CPU des VMs. Mise à jour toutes les 5 minutes via le CRON5. 
+Cliquer sur Synchroniser afin de créer la commande sur les VMs et l'ESXi.
+
 ### 13/09/2019
 Ajout dans la modal Santé de l'uptime des VMs
 
