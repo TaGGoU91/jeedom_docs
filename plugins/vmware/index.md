@@ -107,18 +107,21 @@ Si vous avez des espaces dans le nom du snapshot il peut l'être de la façon su
 
 ##### Scénario 1
 Envoyer une alerte sur le nombre de snapshot associé à une VM -> Trop de snapshots ça n'est pas bon
+
+##### Scénario 2
 Envoyer une alerte sur présence de snapshot dans une VM depuis XX jours -> Conserver un snapshot trop longtemps n'est pas une bonne idée
 
+##### Scénario 3
 Faire une interaction appelant le scénario suivant (C'est l'idée de base qui m'a poussé à créer ce plugin : faciliter les actions de mises à jour du core jeedom tout en sécurisant cette mise à jour) :
 * Créer un snapshot
 * Faire les mises à jours de votre jeedom via Jeelink
 * Planifier un ASK pour suppression du snapshot dans X jours
 * Supprimer ou non le snapshot en fonction de la réponse au ASK
 
-##### Scénario 2
-Envoyer une alerte si la commande Mise à jour disponible sur l'ESXi est disponible afin de pouvoir prévoir de le mettre à jour
+##### Scénario 4
+Envoyer une alerte si la commande Mise à jour disponible sur l'ESXi nous informe de la présence d'une mise à jour afin de pouvoir prévoir de le mettre à jour
 
-##### Scénario 3 
+##### Scénario 5 
 Surveiller si une VM s'éteint, surveiller si une VM n'a plus ses VMWARE Tools fonctionnel, etc...
 
 ## Cron
