@@ -6,7 +6,7 @@ The purpose of this plugin is to be able to obtain information from your Vmware 
 
 The plugin does not contain any dependencies. VM control will be done via SSH.
 
-![introduction01](../../images/vmware/vmware_icon.png)
+![introduction01](../../../images/vmware/vmware_icon.png)
 
 
 ## Prerequisites
@@ -44,8 +44,8 @@ When saving the ESXi, the ESXi is not queried directly.
 Each VM will have the following informations :
 * Number of snapshots
 * List of snapshots
-* Vmware Tools Status : Started ![introduction01](../../images/vmware/coche_verte.png) / Not Started ![introduction01](../../images/vmware/coche_orange.png) / OutDated ![introduction01](../../images/vmware/roue_crantee_orange.png) / Not Installed ![introduction01](../../images/vmware/croix_rouge.png)
-* VM status : Online ![introduction01](../../images/vmware/coche_verte.png) / Offline ![introduction01](../../images/vmware/croix_rouge.png)
+* Vmware Tools Status : Started ![introduction01](../../../images/vmware/coche_verte.png) / Not Started ![introduction01](../../../images/vmware/coche_orange.png) / OutDated ![introduction01](../../../images/vmware/roue_crantee_orange.png) / Not Installed ![introduction01](../../../images/vmware/croix_rouge.png)
+* VM status : Online ![introduction01](../../../images/vmware/coche_verte.png) / Offline ![introduction01](../../../images/vmware/croix_rouge.png)
 * Operating system
 * Total RAM amount
 * Number of CPUs

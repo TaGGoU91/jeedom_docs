@@ -7,7 +7,7 @@ Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre platefor
 Le plugin ne contient pas de dépendances.
 Le pilotage des VMs sera effectué via SSH. 
 
-![introduction01](../../images/vmware/vmware_icon.png)
+![introduction01](../../../images/vmware/vmware_icon.png)
 
 
 ## Prérequis 
@@ -45,8 +45,8 @@ Lors de la sauvegarde de l'ESXi, l'ESXi n'est pas interrogé directement.
 Chaque VM aura les informations suivantes :
 * Nombre de snapshot
 * Liste des snapshots
-* Statut des Vmware Tools : Démarré ![introduction01](../../images/vmware/coche_verte.png) / Pas Démarré ![introduction01](../../images/vmware/coche_orange.png) / Pas à jour ![introduction01](../../images/vmware/roue_crantee_orange.png) / Pas Installé ![introduction01](../../images/vmware/croix_rouge.png)
-* Etat de la VM : Allumée ![introduction01](../../images/vmware/coche_verte.png) / Eteinte ![introduction01](../../images/vmware/croix_rouge.png)
+* Statut des Vmware Tools : Démarré ![introduction01](../../../images/vmware/coche_verte.png) / Pas Démarré ![introduction01](../../../images/vmware/coche_orange.png) / Pas à jour ![introduction01](../../../images/vmware/roue_crantee_orange.png) / Pas Installé ![introduction01](../../../images/vmware/croix_rouge.png)
+* Etat de la VM : Allumée ![introduction01](../../../images/vmware/coche_verte.png) / Eteinte ![introduction01](../../../images/vmware/croix_rouge.png)
 * Système d'exploitation
 * Quantité de RAM totale
 * Nombre de CPU
