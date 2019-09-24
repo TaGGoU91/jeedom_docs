@@ -3,6 +3,9 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
+24/09/2019
+Ajout de la traduction en Anglais
+
 ### 17/09/2019
 Ajout commande Utilisation Mémoire sur VM et ESXi afin de suivre l'usage Mémoire des VMs et du serveur ESXi. Mise à jour toutes les 5 minutes via le CRON5. 
 Cliquer sur Synchroniser afin de créer la commande sur les VMs et l'ESXi.
