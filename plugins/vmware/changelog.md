@@ -3,6 +3,10 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2019
+### 27/09/2019
+Ajout de la commande Température disque X ou X débute à 1 et s'incrémente à chaque disque dur trouvé sur l'ESXI. Cela permettant d'avoir un point de suivi statistiques pour cette valeur.
+Elle est historisée par défaut. C'est uniquement pour les ESXi serveurs. Elle se met à jour dans le cron5, donc toutes les 5 minutes.
+
 ### 24/09/2019
 Ajout de la traduction en Anglais
 
