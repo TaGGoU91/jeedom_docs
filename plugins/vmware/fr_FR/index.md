@@ -78,6 +78,7 @@ Un ESXi aura les informations suivantes :
 * Uptime affiché au format Years / Months / Days / Hours / Minutes / Seconds 
 * Utilisation Processeur (MHz) permet de suivre via le cron5 l'utilisation CPU du serveur
 * Utilisation Mémoire (GB) permet de suivre via le cron5 l'utilisation Mémoire du serveur
+* Température disque X ou X démarre à 1 et s'incrémente en fonction du nombre de disque dur connecté sur l'ESXi
 
 
 ## Paramètres de la commande prendre un snapshot :
