@@ -140,6 +140,7 @@ Le plugin s'appuie sur deux crons
 ## FAQ
 
 > Si vous avez un statut sans icone pour les vmwares Tools, merci de me l'indiquer afin que je puisse le rajouter
+> Si vous ajoutez un deuxième disque (HDD/SSD) et que la commande température ne se créée pas automatiquement, supprimer la commande existante et attendre le cron5
 
 
 ## Troubleshooting
