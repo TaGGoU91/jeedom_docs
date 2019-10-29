@@ -33,6 +33,7 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 * Adresse IP de l'hôte ESXi
 * Login  (Vous pouvez créer un compte dédié pour ce besoin en limitant les droits de ce compte si vous le souhaitez)
 * Mot de passe
+* Port SSH
 * Sauvegarder l'équipement ESXi
 
 
@@ -79,6 +80,7 @@ Un ESXi aura les informations suivantes :
 * Utilisation Processeur (MHz) permet de suivre via le cron5 l'utilisation CPU du serveur
 * Utilisation Mémoire (GB) permet de suivre via le cron5 l'utilisation Mémoire du serveur
 * Température disque X ou X démarre à 1 et s'incrémente en fonction du nombre de disque dur connecté sur l'ESXi
+* Online prennant les valeurs Oui/Non en fonction du fait que le plugin arrive ou non à initier une connexion SSH sur votre serveur ESXi
 
 
 ## Paramètres de la commande prendre un snapshot :

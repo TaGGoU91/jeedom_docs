@@ -2,6 +2,11 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Octobre 2019
+### 29/10/2019
+Ajout de la commande Online sur l'ESXi afin de savoir si l'ESXi est joignable ou non en SSH, les valeurs sont Oui/Non
+Ajout du paramètre Port SSH dans l'ESXi afin de spécifier un port !!! N'oubliez pas de le saisir lors de la mise à jour du plugin !!!
+
 ## Septembre 2019
 ### 27/09/2019
 Ajout de la commande Température disque X ou X débute à 1 et s'incrémente à chaque disque dur trouvé sur l'ESXI. Cela permettant d'avoir une valeur toutes les 5 minutes sur l'ESXi. Cette commande est historisée par défaut.
