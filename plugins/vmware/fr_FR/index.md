@@ -33,7 +33,7 @@ Sur la page de l'équipement ESXi il faudra saisir les informations suivantes :
 * Adresse IP de l'hôte ESXi
 * Login  (Vous pouvez créer un compte dédié pour ce besoin en limitant les droits de ce compte si vous le souhaitez)
 * Mot de passe
-* Port SSH
+* Port SSH (22 sera utilisé si le champ est vide)
 * Sauvegarder l'équipement ESXi
 
 
