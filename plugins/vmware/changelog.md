@@ -5,7 +5,7 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 ## Octobre 2019
 ### 29/10/2019
 Ajout de la commande Online sur l'ESXi afin de savoir si l'ESXi est joignable ou non en SSH, les valeurs sont Oui/Non.<br/>
-Ajout du paramètre Port SSH dans l'ESXi afin de spécifier un port **!!!!!!!!! N'oubliez pas de le saisir lors de la mise à jour du plugin !!!!!!!!!**
+Ajout du paramètre Port SSH dans l'ESXi afin de spécifier un port **Le port 22 sera utilisé par défaut si aucun port n'est définit**
 
 ## Septembre 2019
 ### 27/09/2019
