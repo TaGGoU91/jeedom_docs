@@ -153,4 +153,4 @@ Le plugin s'appuie sur deux crons
 
 ## Changelog
 
-[Voir la page dédiée](changelog.md).
+[Voir la page dédiée](../changelog.md).
