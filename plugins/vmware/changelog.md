@@ -3,6 +3,11 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Octobre 2019
+
+### 31/10/2019
+Ajout des commandes Load average 1/5/15 permettant d'obtenir le load average à 1min/5min/15min toutes les 5 minutes de l'ESXi.<br/>
+Pensez à sauvegarder votre équipement ESXi si vous souhaitez les voir apparaitre rapidement.
+
 ### 29/10/2019
 Ajout de la commande Online sur l'ESXi afin de savoir si l'ESXi est joignable ou non en SSH, les valeurs sont Oui/Non.<br/>
 Ajout du paramètre Port SSH dans l'ESXi afin de spécifier un port **Le port 22 sera utilisé par défaut si aucun port n'est définit**

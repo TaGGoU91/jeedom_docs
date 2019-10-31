@@ -81,6 +81,9 @@ Un ESXi aura les informations suivantes :
 * Utilisation Mémoire (GB) permet de suivre via le cron5 l'utilisation Mémoire du serveur
 * Température disque X ou X démarre à 1 et s'incrémente en fonction du nombre de disque dur connecté sur l'ESXi
 * Online prennant les valeurs Oui/Non en fonction du fait que le plugin arrive ou non à initier une connexion SSH sur votre serveur ESXi
+* Load average 1
+* Load average 5
+* Load average 15
 
 
 ## Paramètres de la commande prendre un snapshot :
