@@ -2,6 +2,11 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Décembre 2019
+### 09/12/2019
+Ajout d'un message dans le centre de message en cas de connexion SSH impossible pour indiquer de vérifier si le protocole SSH est actif sur le serveur ESXi.
+Modification de l'application des templates sur les commandes numériques de type info. Le template "line" était forcé par défaut et écrasait le template sélectionné manuellement.
+
 ## Novembre 2019
 ### 01/11/2019
 Modification du sous type de certaines commandes en sous type numeric au lieu du sous type autres. Et sur ces mêmes commandes, applications du widget Line pour plus de lisibilité.<br/>
