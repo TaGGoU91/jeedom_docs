@@ -133,6 +133,7 @@ Surveiller si une VM s'éteint, surveiller si une VM n'a plus ses VMWARE Tools f
 ## Cron
 
 Le plugin s'appuie sur deux crons
+* cron5 -> met à jour les informations sur les loadAverage CPU/ RAM / etc et température du/des disque(s)
 * cronHourly -> met à jour toutes les heures les informations sur vo(s)tre ESXi(s) et les VMs
 * cronDaily -> met à jour une fois par jour la présence ou non de mise à jour pour vo(s)tre ESXi(s)
 
