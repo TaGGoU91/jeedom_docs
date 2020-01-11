@@ -7,7 +7,7 @@ Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre platefor
 Le plugin ne contient pas de dépendances.
 Le pilotage et l'interrogation du docker et des containers seront effectués via SSH. 
 
-![introduction01](../../../images/vmware/docker_icon.png)
+![introduction01](../../../images/docker/docker_icon.png)
 
 
 ## Prérequis 
