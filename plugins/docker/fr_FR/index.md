@@ -16,6 +16,7 @@ Voici ce dont le plugin a besoin :
 * Créer un compte dédié avec un mot de passe assez compliqué (en évitant le caractère  (vous pouvez utiliser un compte existant bien entendu) sur le système hébergeant votre docker
 * Rajouter l'utilisateur dans le groupe administrateur (pour faire du SSH) si vous êtes sur un synology
 * Modifier le fichier sudoers pour autoriser le compte nouvellement créé à utiliser la commande docker, il faut ajouter ceci tout en bas du fichier sudoers (il faut être en root pour faire cette modification) (sudo -i sur un synology)
+
 VOTRE_USER  ALL=(ALL) NOPASSWD: /usr/local/bin/docker
 
 ## Configuration
