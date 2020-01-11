@@ -21,6 +21,8 @@ VOTRE_USER  ALL=(ALL) NOPASSWD: /usr/local/bin/docker
 
 Attention, le chemin donné ci-desssus est informatif et dépendant du système ou est installé votre DOCKER. pour obtenir le chemin complet de l'executable docker, vous pouvez utiliser la commande which docker
 
+> La modification du fichier sudoers selon votre système sera de toute façon documentée sur internet au besoin. Toutefois, je tiens à rappeler que la modification du fichier sudoers, si mal faite, peut causer de sérieux problème d'accès.
+
 ## Configuration
 
 ### Configuration générale
