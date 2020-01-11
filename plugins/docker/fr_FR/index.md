@@ -19,6 +19,8 @@ Voici ce dont le plugin a besoin :
 
 VOTRE_USER  ALL=(ALL) NOPASSWD: /usr/local/bin/docker
 
+Attention, le chemin donné ci-desssus est informatif et dépendant du système ou est installé votre DOCKER. pour obtenir le chemin complet de l'executable docker, vous pouvez utiliser la commande which docker
+
 ## Configuration
 
 ### Configuration générale
