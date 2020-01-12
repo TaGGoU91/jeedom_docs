@@ -91,7 +91,7 @@ Le plugin s'appuie sur 1 cron
 
 ## Troubleshooting
 
-> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le sur [Community](https://community.jeedom.com/) en créant un sujet si vous n'avez pas trouvé une réponse existante corrigeant votre problème.
+> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le sur [Community](https://community.jeedom.com/) en créant un sujet et en taggant le plugin si vous n'avez pas trouvé une réponse existante corrigeant votre problème.
 
 
 ## Changelog
