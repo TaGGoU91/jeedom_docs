@@ -152,7 +152,7 @@ Le plugin s'appuie sur deux crons
 
 ## Troubleshooting
 
-> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le sur https://community.jeedom.com/ en créant un sujet si vous n'avez pas trouvé une réponse existante corrigeant votre problème.
+> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le sur [Community](https://community.jeedom.com/) en créant un sujet si vous n'avez pas trouvé une réponse existante corrigeant votre problème.
 
 
 ## Changelog
