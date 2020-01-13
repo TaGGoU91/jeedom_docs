@@ -9,6 +9,10 @@ Modification du code pour que le rendu dans la page du plugin soit cohérent pou
 
 ## Décembre 2019
 ### 09/12/2019
+Ajout du nombre de snapshots associés à une VM dans la page équipement de chaque VM
+
+## Décembre 2019
+### 09/12/2019
 Ajout d'un message dans le centre de message en cas de connexion SSH impossible pour indiquer de vérifier si le protocole SSH est actif sur le serveur ESXi.
 Modification de l'application des templates sur les commandes numériques de type info. Le template "line" était forcé par défaut et écrasait le template sélectionné manuellement.
 
