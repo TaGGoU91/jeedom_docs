@@ -2,6 +2,11 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Janvier 2020
+### 13/01/2020
+Modification de l'icone du plugin (ajout de l'espace sous l'icone pour être à jour des règles graphique
+Modification du code pour que le rendu dans la page du plugin soit cohérent pour les VMs (conservation de l'icone sans espace en dessous).
+
 ## Décembre 2019
 ### 09/12/2019
 Ajout d'un message dans le centre de message en cas de connexion SSH impossible pour indiquer de vérifier si le protocole SSH est actif sur le serveur ESXi.
