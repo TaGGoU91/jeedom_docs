@@ -8,7 +8,7 @@ Modification de l'icone du plugin (ajout de l'espace sous l'icone pour être à 
 Modification du code pour que le rendu dans la page du plugin soit cohérent pour les VMs (conservation de l'icone sans espace en dessous).
 
 ## Décembre 2019
-### 09/12/2019
+### 11/12/2019
 Ajout du nombre de snapshots associés à une VM dans la page équipement de chaque VM
 
 ### 09/12/2019
