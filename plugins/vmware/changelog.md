@@ -4,7 +4,7 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Janvier 2020
 ### 13/01/2020
-Modification de l'icone du plugin (ajout de l'espace sous l'icone pour être à jour des règles graphique
+Modification de l'icone du plugin (ajout de l'espace sous l'icone pour être à jour des règles graphique<br/>
 Modification du code pour que le rendu dans la page du plugin soit cohérent pour les VMs (conservation de l'icone sans espace en dessous).
 
 ## Décembre 2019
@@ -12,7 +12,7 @@ Modification du code pour que le rendu dans la page du plugin soit cohérent pou
 Ajout du nombre de snapshots associés à une VM dans la page équipement de chaque VM
 
 ### 09/12/2019
-Ajout d'un message dans le centre de message en cas de connexion SSH impossible pour indiquer de vérifier si le protocole SSH est actif sur le serveur ESXi.
+Ajout d'un message dans le centre de message en cas de connexion SSH impossible pour indiquer de vérifier si le protocole SSH est actif sur le serveur ESXi.<br/>
 Modification de l'application des templates sur les commandes numériques de type info. Le template "line" était forcé par défaut et écrasait le template sélectionné manuellement.
 
 ## Novembre 2019
