@@ -54,13 +54,15 @@ Chaque container aura les informations suivantes :
 * ID du container
 * Nom
 * Statut du container
+* Online
 * Image source
 * Dernier démarrage
+* uptime (s)
 
 
 Chaque VM aura les commandes suivantes :
 * Start
-* Reboot
+* Restart
 * Stop
 * Kill
 
@@ -72,6 +74,7 @@ Un DOCKER aura les informations suivantes :
 * Nombre de Containers éteints
 * Nombre d'image disponible
 * Version du docker
+* Online
 
 ## Cron
 
