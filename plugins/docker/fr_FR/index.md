@@ -58,7 +58,7 @@ Chaque container aura les informations suivantes :
 * Image source
 * Dernier démarrage
 * uptime (s)
-
+* Docker Parent (pour connaitre le parent d'un container afin de gagner en lisibilité)
 
 Chaque VM aura les commandes suivantes :
 * Start
