@@ -149,10 +149,12 @@ Le plugin s'appuie sur deux crons
 
 > Si vous ajoutez un deuxième disque (HDD/SSD) et que la commande température ne se créée pas automatiquement, supprimer la commande existante et attendre le cron5
 
+> L'accès au menu de gauche (disponible en V3) est possible en cliquant sur l'icone en forme de maison située à gauche du texte : Mes équipements VMWARE
+
 
 ## Troubleshooting
 
-> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le sur [Community](https://community.jeedom.com/) en créant un sujet si vous n'avez pas trouvé une réponse existante corrigeant votre problème.
+> Si vous avez un quelconque problème avec le plugin, passer le log en débug et communiquez le sur [Community](https://community.jeedom.com/) en créant un sujet et en taggant le plugin si vous n'avez pas trouvé une réponse existante corrigeant votre problème.
 
 
 ## Changelog

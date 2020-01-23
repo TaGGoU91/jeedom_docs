@@ -94,6 +94,8 @@ Le plugin s'appuie sur 1 cron
 
 > Si l'accès SSH est non fonctionnel, vérifiez que vous avez bien configuré l'accès en utilisant putty par exemple et en entrant une commande de test
 
+> L'accès au menu de gauche (disponible en V3) est possible en cliquant sur l'icone Docker située à gauche du texte : Mes équipements Docker
+
 
 ## Troubleshooting
 

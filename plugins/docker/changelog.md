@@ -4,7 +4,9 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Janvier 2020
 ### 23/01/2020
-Ajout de la commande Santé qui permet d'avoir l'état de santé d'un container
+Ajout de la commande Santé qui permet d'avoir l'état de santé d'un container<br/>
+Modification de l'icone située à gauche du texte : Mes équipements Docker<br/>
+L'accès au menu de gauche (disponible en V3) est possible en cliquant sur l'icone Docker située à gauche du texte : Mes équipements Docker
 
 ### 22/01/2020
 Remplacement de la commande reboot par la commande restart. Il faut supprimer la commande reboot manuellement.<br/>
