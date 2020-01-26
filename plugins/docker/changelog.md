@@ -3,6 +3,9 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Janvier 2020
+### 26/01/2020
+Correction de bug : Non affichage dans la page équipement d'un container du nom du docker parent
+
 ### 23/01/2020
 Ajout de la commande Santé qui permet d'avoir l'état de santé d'un container<br/>
 Modification de l'icone située à gauche du texte : Mes équipements Docker<br/>
