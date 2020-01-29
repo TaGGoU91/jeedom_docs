@@ -4,7 +4,7 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Janvier 2020
 ### 29/01/2020
-Ajout d'une liste déroulante pour choisir le type d'hote docker (linux/syno)<br />
+Ajout d'une liste déroulante pour choisir le type d'hôte docker (linux/syno)<br />
 Modification des appels en fonction du type d'hote<br />
 Ménage dans les logs
 
