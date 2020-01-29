@@ -37,6 +37,7 @@ Sur la page de l'équipement DOCKER il faudra saisir les informations suivantes 
 * Login  (Vous pouvez créer un compte dédié pour ce besoin en limitant les droits de ce compte si vous le souhaitez comme expliqué en prérequis)
 * Mot de passe
 * Port SSH (22 sera utilisé si le champ est vide)
+* Choisir le type d'hôte (Synology/Xpenology ou Linux)
 * Sauvegarder l'équipement DOCKER
 
 
