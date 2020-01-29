@@ -14,14 +14,10 @@ Le pilotage et l'interrogation du docker et des containers seront effectués via
 
 Voici ce dont le plugin a besoin : 
 * Créer un compte dédié avec un mot de passe assez compliqué (en évitant le caractère & (vous pouvez utiliser un compte existant bien entendu)) sur le système hébergeant votre docker
-* Rajouter l'utilisateur dans le groupe administrateur (pour faire du SSH) si vous êtes sur un synology
-* Modifier le fichier sudoers pour autoriser le compte nouvellement créé à utiliser la commande docker, il faut ajouter ceci tout en bas du fichier sudoers (il faut être en root pour faire cette modification) (sudo -i sur un synology)
+* Autoriser le compte à faire du SSH sur votre hote hébergeant DOCKER (Synology / Machine Linux)
+** Sur un synology, créer un groupe docker (attention à la case), y placer l'utilisateur que vous venez de créer et relancer le package docker sur votre synology via le gestionnaire de package, [Procédure](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
+** Sur un linux, autoriser l'utilisateur que vous venez de créer a executer sudo docker sur votre linux en modifiant le sudoers.
 
-VOTRE_USER  ALL=(ALL) NOPASSWD: /usr/local/bin/docker
-
-Attention, le chemin donné ci-desssus est informatif et dépendant du système ou est installé votre DOCKER. pour obtenir le chemin complet de l'executable docker, vous pouvez utiliser la commande which docker
-
-> La modification du fichier sudoers selon votre système sera de toute façon documentée sur internet au besoin. Toutefois, je tiens à rappeler que la modification du fichier sudoers, si mal faite, peut causer de sérieux problème d'accès.
 
 ## Configuration
 

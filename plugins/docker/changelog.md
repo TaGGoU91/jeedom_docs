@@ -3,6 +3,11 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Janvier 2020
+### 29/01/2020
+Ajout d'une liste déroulante pour choisir le type d'hote docker (linux/syno)<br />
+Modification des appels en fonction du type d'hote<br />
+Ménage dans les logs
+
 ### 26/01/2020
 Correction de bug : Non affichage dans la page équipement d'un container du nom du docker parent
 
