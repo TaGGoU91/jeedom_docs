@@ -15,8 +15,8 @@ Le pilotage et l'interrogation du docker et des containers seront effectués via
 Voici ce dont le plugin a besoin : 
 * Créer un compte dédié avec un mot de passe assez compliqué (en évitant le caractère & (vous pouvez utiliser un compte existant bien entendu)) sur le système hébergeant votre docker
 * Autoriser le compte à faire du SSH sur votre hote hébergeant DOCKER (Synology / Machine Linux)
-** Sur un synology, créer un groupe docker (attention à la case), y placer l'utilisateur que vous venez de créer et relancer le package docker sur votre synology via le gestionnaire de package, [Procédure](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
-** Sur un linux, autoriser l'utilisateur que vous venez de créer a executer sudo docker sur votre linux en modifiant le sudoers.
+* Sur un synology, créer un groupe docker (attention à la case), y placer l'utilisateur que vous venez de créer et relancer le package docker sur votre synology via le gestionnaire de package, [Procédure](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
+* Sur un linux, autoriser l'utilisateur que vous venez de créer a executer sudo docker sur votre linux en modifiant le sudoers.
 
 
 ## Configuration
