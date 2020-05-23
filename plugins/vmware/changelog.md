@@ -8,6 +8,9 @@ Modification du contenu de la commande create snapshot afin d'indiquer comment r
 Afin de voir le contenu entier, il faut ajouter ceci dans la personnalisation avancée de Jeedom : <br/>
 [data-eqtype="vmware"] [data-subtype="message"] {width:346px !important;}
 
+ATTENTION : Les mises à jours faites en beta et stable à partir du 23 Mai 2020 implique un big bang au niveau du nom logique des VMs, celà va dupliquer vos VMs. Ceci est un mal nécessaire. 
+Plus d'information disponible ici : https://community.jeedom.com/t/plugin-tiers-plugin-vmware/3032/67?u=tag
+
 
 ## Janvier 2020
 ### 23/01/2020
