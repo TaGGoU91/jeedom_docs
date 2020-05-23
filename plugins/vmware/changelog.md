@@ -4,12 +4,17 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Mai 2020
 ### 23/05/2020
+Modification de la partie Température Disque dur de vos ESXi. La commande nommée Température disque X peut être supprimée une fois le cron5 passé.<br/>
+Les commandes de remplacement débutent par un NEW afin de les identifier facilement. Ceci pour corriger un bug en cas de présence de plusieurs disque dur du même fabricant et modèle.<br/>
+
+### 23/05/2020
+ATTENTION : Les mises à jours faites en beta et stable à partir du 23 Mai 2020 implique un big bang au niveau du nom logique des VMs, celà va dupliquer vos VMs. Ceci est un mal nécessaire. <br/>
+Plus d'information disponible ici : https://community.jeedom.com/t/plugin-tiers-plugin-vmware/3032/67?u=tag
+ATTENTION <br/>
+
 Modification du contenu de la commande create snapshot afin d'indiquer comment remplir ce champ
 Afin de voir le contenu entier, il faut ajouter ceci dans la personnalisation avancée de Jeedom : <br/>
 [data-eqtype="vmware"] [data-subtype="message"] {width:346px !important;}
-
-ATTENTION : Les mises à jours faites en beta et stable à partir du 23 Mai 2020 implique un big bang au niveau du nom logique des VMs, celà va dupliquer vos VMs. Ceci est un mal nécessaire. 
-<br/>Plus d'information disponible ici : https://community.jeedom.com/t/plugin-tiers-plugin-vmware/3032/67?u=tag
 
 
 ## Janvier 2020
