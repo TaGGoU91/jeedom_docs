@@ -151,6 +151,8 @@ Le plugin s'appuie sur deux crons
 
 > L'accès au menu de gauche (disponible en V3) est possible en cliquant sur l'icone en forme de maison située à gauche du texte : Mes équipements VMWARE
 
+> Si vous souhaitez afficher complétement le contenu pré rempli des commandes de créations et suppression de snapshot il faut ajouter ce qui suit en personnalisation avancée CSS de jeedom : [data-eqtype="vmware"] [data-subtype="message"] {width:346px !important;}
+
 
 ## Troubleshooting
 
