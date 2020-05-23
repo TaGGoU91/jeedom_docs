@@ -2,6 +2,13 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Mai 2020
+### 23/05/2020
+Modification du contenu de la commande create snapshot afin d'indiquer comment remplir ce champ
+Afin de voir le contenu entier, il faut ajouter ceci dans la personnalisation avancée de Jeedom : <br/>
+[data-eqtype="vmware"] [data-subtype="message"] {width:346px !important;}
+
+
 ## Janvier 2020
 ### 23/01/2020
 Modification de l'icone située à gauche du texte : Mes équipements VMWARE<br/>
