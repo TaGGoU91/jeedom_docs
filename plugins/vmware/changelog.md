@@ -8,7 +8,7 @@ Ajout sur l'ESXi des commandes actions suivantes : <br/>
 Quitter le mode maintenance<br/>
 Entrer en mode maintenance<br/>
 Reboot ESXi (10 secondes de délai)<br/>
-Stop ESXi (10 secondes de délai)<br/>
+Stop ESXi (10 secondes de délai)<br/><br/>
 Ajout sur l'ESXi de la commande information suivante : <br/>
 Etat du mode maintenance<br/><br>
 
