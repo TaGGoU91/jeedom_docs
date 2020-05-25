@@ -11,7 +11,6 @@ Reboot ESXi (10 secondes de délai)<br/>
 Stop ESXi (10 secondes de délai)<br/><br/>
 Ajout sur l'ESXi de la commande information suivante : <br/>
 Etat du mode maintenance<br/><br>
-
 Correction de certains logs debug pour que ça soit plus parlant
 
 ### 24/05/2020
