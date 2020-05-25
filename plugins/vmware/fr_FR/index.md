@@ -58,7 +58,7 @@ Chaque VM aura les informations suivantes :
 * Utilisation Mémoire (GB) permet de suivre via le cron5 l'utilisation mémoire de chaque VMs
 
 
-Chaque VM aura les commandes suivantes :
+Chaque VM aura les commandes action suivantes :
 * Reboot OS -> Equivalent VMWARE : Restart -  Vmware Tools requis
 * Reboot Hard -> Equivalent VMWARE : Reset
 * Stop OS -> Equivalent VMWARE : ShutDown - Vmware Tools requis
@@ -67,7 +67,7 @@ Chaque VM aura les commandes suivantes :
 * Prendre un snapshot -> Plus de détails en dessous sur les options de la commande
 * Supprimer un snapshot -> Plus de détails en dessous sur les options de la commande
 
-Un ESXi aura les informations suivantes : 
+Chaque ESXi aura les informations suivantes : 
 * Nombre de VM
 * Liste des VMs
 * Mise à jour de la version de l'ESXi disponible ? (Actualisation 1 fois par jour via le CronDaily)
@@ -84,6 +84,13 @@ Un ESXi aura les informations suivantes :
 * Load average 1
 * Load average 5
 * Load average 15
+* Etat du mode maintenance
+
+Chaque ESXi aura les commandes action suivantes : 
+* Mise en maintenance
+* Sortie de maintenance
+* Stop (10 secondes de délai)
+* Reboot (10 secondes de délai)
 
 
 ## Paramètres de la commande prendre un snapshot :

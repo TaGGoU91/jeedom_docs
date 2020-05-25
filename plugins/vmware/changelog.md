@@ -3,6 +3,17 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Mai 2020
+### 25/05/2020
+Ajout sur l'ESXi des commandes actions suivantes : <br/>
+Quitter le mode maintenance<br/>
+Entrer en mode maintenance<br/>
+Reboot ESXi (10 secondes de délai)<br/>
+Stop ESXi (10 secondes de délai)<br/>
+Ajout sur l'ESXi de la commande information suivante : <br/>
+Etat du mode maintenance<br/><br>/
+
+Correction de certains logs debug pour que ça soit plus parlant
+
 ### 24/05/2020
 Modification de la partie Température Disque dur de vos ESXi. La commande nommée Température disque X peut être supprimée une fois le cron5 passé.<br/>
 Les commandes de remplacement débutent par un NEW afin de les identifier facilement. Ceci pour corriger un bug en cas de présence de plusieurs disque dur du même fabricant et modèle.<br/>
