@@ -56,6 +56,7 @@ Chaque VM aura les informations suivantes :
 * Uptime de la VM, pas de l'OS, affiché au format Years / Months / Days / Hours / Minutes / Seconds 
 * Utilisation Processeur (MHz) permet de suivre via le cron5 l'utilisation CPU de chaque VMs
 * Utilisation Mémoire (GB) permet de suivre via le cron5 l'utilisation mémoire de chaque VMs
+* Ajout sur les VMs d'une commande VM Présente afin de savoir si la VM est encore présente sur VMWARE. Attention, les VMs doivent avoir le même nom entre Jeedom et VMWARE, bien respecter la casse
 
 
 Chaque VM aura les commandes action suivantes :
