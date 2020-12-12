@@ -4,6 +4,9 @@ Information : Si une mise à jour est disponible et que le changelog n'indique r
 
 ## Décembre 2020
 ### 12/12/2020
+Ajout du champ pour la compatibilité V4 lors d'une migration V3->V4, ceci afin d'éviter d'avoir un message d'alerte.
+
+### 12/12/2020
 Correction d'une non initilisation de variable entrainant un message d'information dans le log http.error si une VM a plus de 2 snapshots
 
 ### 04/12/2020
