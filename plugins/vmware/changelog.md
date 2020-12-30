@@ -3,6 +3,9 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Décembre 2020
+### 30/12/2020
+Modifcation choix objet parents - compatible v3/v4/v4.1 cf : https://doc.jeedom.com/fr_FR/dev/core4.1
+
 ### 12/12/2020
 Ajout du champ pour la compatibilité V4 lors d'une migration V3->V4, ceci afin d'éviter d'avoir un message d'alerte.
 
