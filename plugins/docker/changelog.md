@@ -2,6 +2,9 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Mars 2021
+Modification de la récupération des informations pour les commandes Uptime (S) / Dernier Démarrage.
+
 ## Décembre 2020
 
 ### 30/12/2020
