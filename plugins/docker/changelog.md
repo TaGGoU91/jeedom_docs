@@ -8,7 +8,7 @@ Modification de la récupération des informations pour les commandes Uptime (S)
 ## Décembre 2020
 
 ### 30/12/2020
-Modifcation choix objet parents - compatible v3/v4/v4.1 cf : https://doc.jeedom.com/fr_FR/dev/core4.1
+Modification choix objet parents - compatible v3/v4/v4.1 cf : https://doc.jeedom.com/fr_FR/dev/core4.1
 
 ### 12/12/2020
 Ajout du champ pour la compatibilité V4 lors d'une migration V3->V4, ceci afin d'éviter d'avoir un message d'alerte.
