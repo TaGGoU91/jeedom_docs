@@ -3,7 +3,7 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Septembre 2021
-### 26/09/2021
+### 26/09/2021 - En beta uniquement pour l'instant
 Modification de la librairie permettant de faire du SSH. Refonte de tous les appels SSH au serveur ESXi. Ceci permettant la compatibilité avec VMWARE ESXi 7.0.2 qui désactive le SHA1.
 
 ## Décembre 2020
