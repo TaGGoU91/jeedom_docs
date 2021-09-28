@@ -2,6 +2,10 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Septembre 2021
+### 26/09/2021
+Modification de la librairie permettant de faire du SSH. Refonte de tous les appels SSH au serveur ESXi. Ceci permettant la compatibilité avec VMWARE ESXi 7.0.2 qui désactive le SHA1.
+
 ## Décembre 2020
 ### 30/12/2020
 Modifcation choix objet parents - compatible v3/v4/v4.1 cf : https://doc.jeedom.com/fr_FR/dev/core4.1
