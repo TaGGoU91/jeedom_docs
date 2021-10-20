@@ -3,7 +3,7 @@
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
 ## Octobre 2021
-### 18/10/2021 -> Beta only
+### 20/10/2021 
 Correctif bug port 22 par défaut non appliqué.
 Correctif dossier de stockage des images pour coller aux règles de la dernière Alpha de Jeedom.
 
