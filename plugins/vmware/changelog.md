@@ -2,6 +2,11 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Avril 2022
+### 28/04/2022
+Correctif chemin d'accès aux icônes du plugin
+
+
 ## Octobre 2021
 ### 20/10/2021 
 Correctif bug port 22 par défaut non appliqué.

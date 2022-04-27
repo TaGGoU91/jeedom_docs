@@ -2,6 +2,10 @@
 
 Information : Si une mise à jour est disponible et que le changelog n'indique rien c'est que les modifications apportées sont mineures (modification de la doc, ajout/suppression de commentaires, etc). Il n'y a donc pas lieu de s'inquiéter.
 
+## Avril 2022
+### 28/04/2022
+Correctif chemin d'accès aux icônes du plugin
+
 ## Septembre 2021
 Prise en compte de l'utilisation possible du compte root, si oui ne pas envoyer la commande sudo, car cela rend le plugin non fonctionel si on l'envoi.
 
