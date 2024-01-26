@@ -16,10 +16,6 @@ Il faudra les prérequis suivants afin de pouvoir faire fonctionner correctement
 * Module python 
 * Activer le mode local sur votre/vos micro-onduleur(s)
 
-########## TO BE COMPLETED ###########
-
-
-
 ## Configuration
 
 ### Configuration générale
@@ -35,8 +31,9 @@ Il n'y a pas de paramètre particulier au niveau de la configuration du plugin.
 Sur la page de l'équipement il faudra saisir les informations suivantes :
 
 * Adresse IP de votre micro-onduleur
-* Sauvegarder l'équipement ESXi
+* Sauvegarder l'équipement
 
+########## TO BE COMPLETED ###########
 
 ## Informations
 
