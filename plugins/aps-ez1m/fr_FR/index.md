@@ -10,8 +10,8 @@ Plusieurs micro-onduleurs sont ajoutables et gérables indépendamment les uns d
 
 ## Prérequis 
 
-Il faudra les prérequis suivants afin de pouvoir faire fonctionner correctement le plugin : 
-* Activer le mode local sur votre/vos micro-onduleur(s)
+Il faudra le prérequi suivant afin de pouvoir faire fonctionner correctement le plugin : 
+* Activer le mode local sur votre micro-onduleur
 
 Afin d'activer le mode local, merci de suivre la procédure ci-dessous depuis l'application AP EasyPower :
  * Déconnecter vous de votre compte cloud pour revenir à la page de connexion, puis choisir Direct Connection
