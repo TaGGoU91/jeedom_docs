@@ -2,10 +2,11 @@
 
 ## Présentation
 
-Le but de ce plugin est de pouvoir obtenir des informations de vo(s)tre micro-onduleur(s) APSystems modèle EZ1-M et de pouvoir limiter la puissance et/ou de le ou les éteindre en cas de besoin.
+Le but de ce plugin est de pouvoir obtenir des informations de votre micro-onduleur APSystems modèle EZ1-M. Il permet également de limiter la puissance et/ou de l'éteindre en cas de besoin.
 
-Le pilotage et la récupération des informations est fait via une API locale activable sur le micro-onduleur. Une fois cette API locale activé, la communication avec le cloud est interrompue. C'est pour l'instant ainsi que ça fonctionne, peut-être qu'APS changera son fonctionement à l'avenir en conservant le cloud et l'API locale.
+Le pilotage et la récupération des informations est fait via une API locale activable sur le micro-onduleur. Une fois cette API locale activée, la communication avec le cloud est interrompue. C'est pour l'instant ainsi que ça fonctionne, peut-être qu'APS changera ce fonctionement à l'avenir en conservant le cloud et l'API locale.
 
+Plusieurs micro-onduleurs sont ajoutables et gérables indépendamment les uns des autres.
 
 ## Prérequis 
 
