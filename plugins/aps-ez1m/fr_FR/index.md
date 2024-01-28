@@ -8,6 +8,8 @@ Le pilotage et la récupération des informations est fait via une API locale ac
 
 Plusieurs micro-onduleurs sont ajoutables et gérables indépendamment les uns des autres.
 
+L'icône n'est pas la plus jolie, je cherche une inspiration pour la remplacer, n'hésitez pas si vous avez une idée pour l'icône ;)
+
 ## Prérequis 
 
 Il faudra le prérequi suivant afin de pouvoir faire fonctionner correctement le plugin : 
