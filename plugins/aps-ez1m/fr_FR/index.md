@@ -63,7 +63,7 @@ Chaque micro-onduleur aura les informations suivantes :
 * Power Input 2 : Puissance instantanée produite par l'entrée 2 à l'instant T en W
 * Device ID : ID du micro-onduleur, pratique si on a plusieurs micro-onduleurs
 * Device Version : Version du firmware
-* Alarm AC Output : au format X - Y | Ou X est un binaire (0 = Normal / 1 = Alarm) et Y contient le message d'erreur
+* Alarm AC Output : au format X - Y -> Ou X est un binaire (0 = Normal / 1 = Alarm) et Y contient le message d'erreur
 * Alarm input 1 : 0 = Normal / 1 = Alarm
 * Alarm input 2 : 0 = Normal / 1 = Alarm
 * Online : 0 = APi non joignable / 1 = Api joignable
