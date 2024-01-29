@@ -1,4 +1,4 @@
-# APS EZ1M
+# APS EZ1-M
 
 ## Présentation
 
