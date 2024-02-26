@@ -20,7 +20,7 @@ A compléter
 ### Configuration générale
 
 Il faudra saisir votre login et mot de passe utilisés sur l'application Hitachi AirCloud GO. Attention, le login doit être au format e-mail, pas au format numéro de téléphone.
-Il ne vous reste plus qu'à sauvegarder, les différentes PAC que vous possédez vont être ajoutées automatiquement. 
+Il ne vous reste plus qu'à sauvegarder, fermer la fenêtre de configuration puis cliquer sur le bouton synchroniser, les différentes PAC que vous possédez vont être ajoutées automatiquement. 
 
 
 ## Informations

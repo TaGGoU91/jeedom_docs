@@ -53,7 +53,7 @@ Lors de la sauvegarde du micro-onduleur, le micro-onduleur n'est pas interrogé 
 
 
 Chaque micro-onduleur aura les informations suivantes : 
-* Power status : 0=On / 1=Off
+* Power status : 0=On=Production / 1=Off=Pas de Production d'électricité, voir commande Action Power Off/Power On
 * Max Power : Donne la valeur maximum autorisée en sortie AC du micro-onduleur. Entre 30W et 800W
 * Total prod lifetime : Production totale depuis la mise en service du micro-onduleur des 2 entrées en Wh
 * Total prod lifetime I1 : Production totale depuis la mise en service du micro-onduleur de l'entrée 1 en Wh
@@ -72,8 +72,8 @@ Chaque micro-onduleur aura les informations suivantes :
 * Online : 0 = APi non joignable / 1 = Api joignable
 
 Chaque micro-onduleur aura les commandes action suivantes : 
-* Power Off EZ1M : Permet d'éteindre le micro-onduleur
-* Power On EZ1M : Permet d'allumer le micro-onduleur
+* Power Off EZ1M : Permet d'éteindre le micro-onduleur pour qu'il ne puisse plus produire de l'électricité même si du soleil est présent
+* Power On EZ1M : Permet d'allumer le micro-onduleur pour qu'il puisse produire de l'électricité
 * Max Output Power : Permet de régler la valeur maximum de sortie du micro-onduleur entre 30W et 800W
 * Rafraîchir
 
