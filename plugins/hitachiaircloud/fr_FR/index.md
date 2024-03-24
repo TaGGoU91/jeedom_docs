@@ -55,7 +55,6 @@ Liste des options
 * fanspeed : LV1 / LV2 / LV3 / LV4 / LV5 / AUTO  -> LV1=Vitesse1 / LV2=Vitesse2 / LVX = vitesse X / Auto = Automatique
 * fanswing : VERTICAL/OFF                        -> Balayage VERTICAL=On / Balayage Off
 
-> [!IMPORTANT]
 > La température n'est pas utilisée dans l'application en mode FAN/Ventilation, mais pour simplifier, c'est géré dans le code comme ça vous pouvez copier/coller vos commandes et ajuster les paramètres. Mais en ventilation la température ne sert à rien, ce qui est assez logique. Je préfère juste le préciser ici.
 
 ## Cron
