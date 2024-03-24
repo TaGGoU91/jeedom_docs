@@ -54,7 +54,7 @@ power on <mode> <temp> <fanspeed> <fanswing>
 L'appel à la commande à la commande Power On doit s'effectuer ainsi dans un scénario :
 mode=HEATING temp=19 fanspeed=LV1 fanswing=OFF
 
-Voici quelques exemples d'appels possible :
+Voici quelques exemples d'appels possible (Ouvrez l'image dans un nouvel onglet pour une meilleure lisibilitée) :
 <p align="center">
   <img src="https://github.com/TaGGoU91/jeedom_docs/blob/master/images/hitachiaircloud/scenario_exemples.png?raw=true" alt="Exemple d'appels dans un scénario"/>
 </p>
@@ -63,7 +63,7 @@ Liste des options
 * mode : HEATING / COOLING / FAN / DRY / AUTO    -> HEATING=Chauffage / COOLING=Froid / FAN=Ventilation / DRY=Déshumidification / AUTO=Auto
 * temp : XX / XX.X                               -> Exemple 20=20°C / 20.5=20.5°C de température de consigne
 * fanspeed : LV1 / LV2 / LV3 / LV4 / LV5 / AUTO  -> LV1=Vitesse1 / LV2=Vitesse2 / LVX = vitesse X / Auto = Automatique
-* fanswing : VERTICAL/OFF                              -> Balayage VERTICAL=On / Balayage Off
+* fanswing : VERTICAL/OFF                        -> Balayage VERTICAL=On / Balayage Off
 
 > [!IMPORTANT]
 > La température n'est pas utilisée dans l'application en mode FAN/Ventilation, mais pour simplifier, c'est géré dans le code comme ça vous pouvez copier/coller vos commandes et ajuster les paramètres. Mais en ventilation la température ne sert à rien, ce qui est assez logique. Je préfère juste le préciser ici.
