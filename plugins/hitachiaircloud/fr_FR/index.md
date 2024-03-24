@@ -48,11 +48,16 @@ Chaque PAC aura les commandes action suivantes :
 
 ## Paramètres de la commande Power On :
 
-l'idée est la suivante : 
+L'idée est la suivante : 
 power on <mode> <temp> <fanspeed> <fanswing>
 
 L'appel à la commande à la commande Power On doit s'effectuer ainsi dans un scénario :
 mode=HEATING temp=19 fanspeed=LV1 fanswing=OFF
+
+Voici quelques exemples d'appels possible :
+<p align="center">
+  <img src="https://github.com/TaGGoU91/jeedom_docs/blob/master/images/hitachiaircloud/scenario_exemples.png?raw=true" alt="Exemple d'appels dans un scénario"/>
+</p>
 
 Liste des options
 * mode : HEATING / COOLING / FAN / DRY / AUTO    -> HEATING=Chauffage / COOLING=Froid / FAN=Ventilation / DRY=Déshumidification / AUTO=Auto
@@ -68,7 +73,7 @@ Liste des options
 Le plugin utilise la fonctionnalité cronHourly, donc nous avons un rafraichissement toutes les heures des informations.
 > Cela est désactivable dans la page de configuration du plugin
 <p align="center">
-  <img src="https://github.com/TaGGoU91/jeedom_docs/blob/master/images/aps-ez1m/cron_plugin.png?raw=true" alt="Liste des Crons"/>
+  <img src="https://github.com/TaGGoU91/jeedom_docs/blob/master/images/hitachiaircloud/cron_plugin.png?raw=true" alt="Liste des Crons"/>
 </p>
 
 
