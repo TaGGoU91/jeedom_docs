@@ -4,9 +4,11 @@
 
 Le but de ce plugin est de pouvoir obtenir des informations de votre PAC Hitachi pilotée par l'application Hitachi AirCloud GO. Il permet également de gérer l'allumage, l'extinction et le changement des paramètres.
 
-## Compatabilité
+## Compatibilité
 Liste des PAC validées :
 * RAK-DJ50PHAE
+* RAK-25RPE
+* RAK-18RPE
 
 ## Configuration
 
